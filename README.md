@@ -27,6 +27,12 @@
          <li>Make clean. Deletes all .o files but the executables remain</li>
          <li>make fclean: deletes all .o files and the executables</li>
     </ul>
-  You must first execute <b>server</b>, it will print the numeric PID. This program never ends, it must be killed manually. In another terminal you must execute <b>client</b> passing as parameters the PID and a string. Then the string passed to client will appear on server. 
-    </p>
+  You must first execute <b>server</b>, it will print the numeric PID. This program never ends, it must be killed manually. In another terminal you must execute <b>client</b> passing as parameters the PID and a string. Then the string passed to client will appear on server.</br>
+ Launch the program as follows:<br/>
+  <ol>
+    <li><b> ./server</li>
+    <li><b> ./client PID* "string"</li>
+  </ol>
+  </p>
+  *PID is the printed number that appears in console after executing ./server
 </div>
