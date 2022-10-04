@@ -1,4 +1,4 @@
-<h1>minitalk</h1>
+<h1>minitalk <a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl8uf09z900060gl2pg6sdczb/project/2469656" alt="samoreno's 42 minitalk Score" /></a></h1>
 <h2>Project description</h2>
 <div>
 <!--  <a href="https://github.com/JaeSeoKim/badge42">
