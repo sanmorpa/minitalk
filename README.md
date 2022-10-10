@@ -4,23 +4,23 @@
 <!--  <a href="https://github.com/JaeSeoKim/badge42">
     <img align="center" src="https://badge42.herokuapp.com/api/project/samoreno/ft_printf"/>
   </a> -->
-  <p>This is a project at 42 Madrid. The goal is to create a communication program in the form of a client and a server and learn wbout signals:
+  <p>This is a project at 42 Madrid. The goal is to create a communication program in the form of a client and a server and learn about signals:
     <ul>
-      <li>The server must be started first. After its launch, it has to print its PID</li>
-      <li>The client takes two parameters: the server PID and a string to send</li>
+      <li>The server must be started first. After its launch, it has to print the PID</li>
+      <li>The client takes two parameters: the server PID and a string to be sent</li>
       <li>The client must send the string passed as a parameter to the server. Once the string has been received, the server must print it.</li>
       <li>The server is able to receive strings from several clients in a row without needing to restart</li>
       <li>It is made using only these two signals: SIGUSR1 and SIGUSR2.</li>
       <li>Unicode characters are supported</li>
     </ul>
-  There can be a global varaible per program and the C functions allowed are: write, signal, sigemptyset, sigemptyset, sigemptyset, kill, getpid, malloc, free, pause, sleep, usleep, exit.
+  There can be a global variable per program and the C functions allowed are: write, signal, sigemptyset, sigemptyset, sigemptyset, kill, getpid, malloc, free, pause, sleep, usleep, exit.
   </p>
   </div>
 
 <h2>Usage</h2>
 <div>
     <p>
-        With the Makefile you can compile directly. The rules that it allows are:
+        the Makefile compiles both executables directly. It has 4 rules:
         <ul>
          <li>Make: it compiles directly</li>
          <li>Make re: if the project is already compiled, it does it again</li>
